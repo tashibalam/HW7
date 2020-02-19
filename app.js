@@ -48,7 +48,7 @@ app.get('/planner', function(req, res) {
   });
 
 // doing this in www bin file to make Azure happy
-//app.listen(443);  // not setting port number in www.bin, simple to do here
-//console.log('443 is the magic port');
+app.listen(443);  // not setting port number in www.bin, simple to do here
+console.log('443 is the magic port');
 
 module.exports = app;
